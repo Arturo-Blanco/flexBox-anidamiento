@@ -33,31 +33,31 @@ div {
   justify-content: space-around;
   width: 85vw;
   text-transform: uppercase;
-  font-size: 1.3vw;
+  font-size: 1vw;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .home {
   margin: 1%;
   background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/artear/OT7DBNPSXLFPAPAQHWLSWQTTRE.jpg);
-  background-size: 100vw;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: inherit;
-  height: 60vh;
   width: 99vw;
+  height: 70vh;
 }
 p {
   font-size: 1.5vw;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .home > p {
-  margin: 2%;
-  color: white;
-  -webkit-text-stroke: 0.5px black;
+  margin-top: 25%;
+  color: #000;
   font-size: 2vw;
   font-weight: 1vw;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
+  background-color: rgba(245, 245, 245, 0.37);
 }
 h2 {
   color: rgb(13, 100, 100);
@@ -120,4 +120,25 @@ h3 {
 #img3 {
   width: 20vw;
   height: 30vh;
+}
+#home:hover,
+#about:hover,
+#mission:hover,
+#contac:hover,
+#donate:hover,
+#fauna:hover {
+  font-size: 1.5vw;
+}
+.about:hover,
+.encabezado:hover,
+.mission:hover,
+.piePagina:hover {
+  background-color: rgba(99, 219, 219, 0.568);
+}
+.home > p:hover {
+  background-color: rgba(255, 250, 250, 0.568);
+}
+#logo:hover {
+  width: 10vw;
+  height: 20vh;
 }
